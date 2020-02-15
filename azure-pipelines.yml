@@ -9,7 +9,7 @@ stages:
   displayName: 'Build the web application'
   jobs: 
   - job: 'Build'
-    displayName: 'Build job'
+    displayName: 'Build Job'
     pool:
       vmImage: 'ubuntu-16.04'
       demands:
